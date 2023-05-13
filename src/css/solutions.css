@@ -1,0 +1,83 @@
+.solutions{
+    background: #FFFFFF;
+    padding: 169px 0 51px;
+    position: relative;
+}
+
+.solutions_title{
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 157%;
+}
+
+.solutions_descr{
+  padding-top: 5px;
+}
+
+.subtitle{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 157%;
+  color: #424242;
+}
+
+.row{
+  display: flex;
+}
+
+.solutions__row{
+  justify-content: space-between;
+  margin-bottom: 69px;
+}
+
+.solutions__cards{
+  justify-content: space-between;
+}
+
+.solutions__card{
+  width: 28%
+}
+
+.solutions__num {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 150px;
+  line-height: 150%;
+  color: rgba(1, 153, 109, 0.2);
+  position: relative;
+}
+
+.solutions__num:before {
+  content: attr(data-content);
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 150%;
+  color: #000000;
+  position: absolute;
+  left: 20%;
+  bottom: 20%;
+}
+
+.solutions__card-descr{
+  margin-bottom: 60px;
+}
+
+.solutions__card-img{
+  width: 100%;
+}
+
+.solutions__card:nth-child(1){
+  margin-top: 48px;
+}
+.solutions__card:nth-child(2){
+  margin-top: 335px;
+}
+.solutions__card:nth-child(3){
+  margin-top: 102px;
+}
+

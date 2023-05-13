@@ -1,0 +1,35 @@
+.customerReview{
+    padding: 229px 0 178px;
+    background-color:  #245852;;
+}
+.container_review{
+    max-width: 1527px;
+}
+.video__block{
+    width: 890px;
+    height: 516px;
+    background: url(/src/images/videoBG.png) top left/100% 100% no-repeat;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+}
+
+.customerReview__title{
+    color: #FFFFFF;
+    font-family: 'Georgia',sans-serif;
+    margin-top: 80px;
+}
+
+.customerReview-desc{
+    margin-top: 33px;
+    margin-bottom: 57px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 157%;
+    color: #FFFFFF;
+}

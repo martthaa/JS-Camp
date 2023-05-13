@@ -1,0 +1,26 @@
+.product {
+	padding: 120px 0 168px;
+}
+
+.product__imgs-container {
+	position: relative;
+	margin-right: 87px;
+
+}
+
+.product__card-img {
+	position: absolute;
+	top: 380px;
+	left: -80px;
+}
+
+.product__descr {
+	margin-bottom: 40px;
+}
+
+
+
+
+
+
+

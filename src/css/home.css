@@ -1,0 +1,37 @@
+.home{
+    background: url("../images/homeBG.png") center/cover no-repeat;
+    padding: 175px 0 336px;
+}
+
+.title{    
+    font-family: 'Georgia',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 157%;
+    color: var(--lightgreen);
+}
+
+.descr{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 144.5%;
+    color: #484848;
+}
+
+.home_descr{
+    margin: 30px 0 52px;
+}
+
+.btn_green{
+    background-color: var(--lightgreen);
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+.btn_green:hover{
+    background-color: #f0ffff;
+    color: #000000;
+}
